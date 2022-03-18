@@ -20,7 +20,7 @@
 #### 解决方案
 查看实例的日志，通过**日志内容**排查问题。
 
-![](https://qcloudimg.tencent-cloud.cn/raw/49767167f9aa54179abd1ee96a6a74a3.png)
+![](https://qcloudimg.tencent-cloud.cn/raw/7a7517f08d6084f81636a02bf18b3e33.png)
 
 ### Running Unhealthy：Readiness probe failed
 
