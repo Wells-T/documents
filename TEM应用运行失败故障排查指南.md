@@ -38,7 +38,7 @@
 
 #### 解决方案
 请在应用部署页面>健康检查中，检查应用的**存活检查**配置是否正确。
-![](https://qcloudimg.tencent-cloud.cn/raw/bebeea18bb6fd436c78167f3c45472b2.png)
+![](https://qcloudimg.tencent-cloud.cn/raw/5ce2fa1f8e286d5203850a07f98fbe14.png)
 
 ### Running Unhealthy：Readiness check failed according to l4 listener: xxx of CLB xxx. Service: xxx
 
@@ -47,8 +47,7 @@
 
 #### 解决方案
 请在应用详情页面>基本信息>访问配置中，检查应用配置的**访问配置**的端口和协议是否正确。
-
-![](https://qcloudimg.tencent-cloud.cn/raw/504234889061a7cae8408db29cd4b0e3.jpg)
+![](https://qcloudimg.tencent-cloud.cn/raw/1eb43d07e643f4641c0aa236980312e8.jpg)
 
 ### PostStartHookError
 
@@ -66,9 +65,7 @@
 实例容器创建失败。
 
 #### 解决方案
-请在应用部署页面>持久化存储中，检查应用是否挂载了不存在的数据卷。
-
-![](https://qcloudimg.tencent-cloud.cn/raw/f22dcc9d8df28012fb3f5095a8144d3d.png)
+请在应用部署页面>持久化存储中，检查应用是否挂载了不存在的数据卷。![](https://qcloudimg.tencent-cloud.cn/raw/ea34cc516fa202e403994d0e2fbc9f3f.png)
 
 ### CreateContainerConfigError
 
