@@ -47,7 +47,7 @@
 
 #### 解决方案
 请在应用详情页面>基本信息>访问配置中，检查应用配置的**访问配置**的端口和协议是否正确。
-![](https://qcloudimg.tencent-cloud.cn/raw/1eb43d07e643f4641c0aa236980312e8.jpg)
+![](https://qcloudimg.tencent-cloud.cn/raw/2ff77b7003de14f060c5fbebd9337df2.jpg)
 
 ### PostStartHookError
 
