@@ -8,7 +8,7 @@
 实例中应用程序的运行有问题，容器启动/运行失败。
 
 #### 解决方案
-查看实例的日志，通过日志内容排查问题。
+查看实例的日志，通过**日志内容**排查问题。
 
 ![](https://qcloudimg.tencent-cloud.cn/raw/34a8a91db77244e0262d162a9040f36e.png)
 
@@ -18,9 +18,9 @@
 与CrashLoopBackOff类似，说明实例中应用程序的运行有问题，容器启动/运行失败。
 
 #### 解决方案
-查看实例的日志，通过日志内容排查问题。
+查看实例的日志，通过**日志内容**排查问题。
 
-![](https://qcloudimg.tencent-cloud.cn/raw/6bd7c78394aa9e5062dceb1607691689.png)
+![](https://qcloudimg.tencent-cloud.cn/raw/49767167f9aa54179abd1ee96a6a74a3.png)
 
 ### Running Unhealthy：Readiness probe failed
 
@@ -28,17 +28,16 @@
 应用配置的就绪健康检查失败。
 
 #### 解决方案
-请在应用部署页面>健康检查中，检查应用的就绪检查配置是否正确。
+请在应用部署页面>健康检查中，检查应用的**就绪检查**配置是否正确。
+![](https://qcloudimg.tencent-cloud.cn/raw/64f286deaeeb89cb75134c8bdee8728b.png)
 
-![enter image description here](/download/attachments/1556177689/image-1647486713173.png?version=1&modificationDate=1647486713487&api=v2)
-![](https://qcloudimg.tencent-cloud.cn/raw/018bdf59af4b99ffabe6401025e50eb8.png)
 ### Running Unhealthy：Liveness probe failed
 
 #### 状态说明
 应用配置的存活健康检查失败。
 
 #### 解决方案
-请在应用部署页面>健康检查中，检查应用的存活检查配置是否正确。
+请在应用部署页面>健康检查中，检查应用的**存活检查**配置是否正确。
 
 ![](https://qcloudimg.tencent-cloud.cn/raw/a81b55dd4011438d0d62b23af724cadb.png)
 
@@ -48,7 +47,7 @@
 应用配置的访问配置无法连通。
 
 #### 解决方案
-请在应用详情页面>基本信息>访问配置中，检查应用配置的访问配置的端口和协议是否正确。
+请在应用详情页面>基本信息>访问配置中，检查应用配置的**访问配置**的端口和协议是否正确。
 
 ![](https://qcloudimg.tencent-cloud.cn/raw/f252214d3165f95a681a4fec0005d0d3.jpg)
 
