@@ -11,7 +11,7 @@ Apollo支持应用在不同的环境有不同的配置，所以需要在运行�
 1. 通过Java System Property apollo.config-service(1.9.0+) 或者 apollo.configService(1.9.0之前)
 - 可以通过Java的System Property apollo.config-service(1.9.0+) 或者 apollo.configService(1.9.0之前)来指定
 - 在Java程序启动脚本中，可以指定-Dapollo.config-service=http://config-service-url:port
- -- 如果是运行jar文件，需要注意格式是java -Dapollo.configService=http://config-service-url:port -jar xxx.jar
+ - 如果是运行jar文件，需要注意格式是java -Dapollo.configService=http://config-service-url:port -jar xxx.jar
 - 也可以通过程序指定，如System.setProperty("apollo.config-service", "http://config-service-url:port");
 2. 通过操作系统的System Environment APOLLO_CONFIG_SERVICE(1.9.0+) 或者 APOLLO_CONFIGSERVICE(1.9.0之前)
 - 可以通过操作系统的System Environment APOLLO_CONFIG_SERVICE(1.9.0+) 或者 APOLLO_CONFIGSERVICE(1.9.0之前)来指定
