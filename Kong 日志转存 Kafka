@@ -7,7 +7,7 @@
 1. 自定义插件的文件目录格式，其中handler.lua 与 schema.lua为必要文件。
 <img src="https://qcloudimg.tencent-cloud.cn/raw/29fe187a49453e962b30c803cc82ce1a.png" width=400px>
 
-2. 点击下载[请求日志转存 Kafka 插件](https://drive.weixin.qq.com/s?k=AJEAIQdfAAojdMiDTHADgAmAbDAK4)。
+2. 点击下载[请求日志转存 Kafka 插件](https://tse-doc-attachments-1306573318.cos.ap-guangzhou.myqcloud.com/kong-kafka-log.zip)。
 
 3. 访问[微服务引擎 Kong 控制台](https://console.cloud.tencent.com/tse/kong)，选择需要的网关实例，并点击自定义插件。
 <img src="https://qcloudimg.tencent-cloud.cn/raw/c62438f2c9dd9e5e0e72888892b5c411.jpg" width=600px>
