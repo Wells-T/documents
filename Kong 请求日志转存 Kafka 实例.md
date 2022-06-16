@@ -10,29 +10,29 @@
 2. 点击下载[请求日志转存 Kafka 插件](https://tse-doc-attachments-1306573318.cos.ap-guangzhou.myqcloud.com/kong-kafka-log.zip)。
 
 3. 访问[微服务引擎 Kong 控制台](https://console.cloud.tencent.com/tse/kong)，选择需要的网关实例，并点击自定义插件。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/c62438f2c9dd9e5e0e72888892b5c411.jpg" width=600px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/c62438f2c9dd9e5e0e72888892b5c411.jpg">
 
 4. 点击**上传插件**，将下载的压缩包上传并填写版本号等信息，点击保存。
 <img src="https://qcloudimg.tencent-cloud.cn/raw/5825ec9de2f0a7b1203f57dbbc75e564.png" width=400px>
 
 5. 完成插件上传后，点击切换至该版本。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/dbc7deda6fe526966c4586dc387802a3.png" width=600px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/dbc7deda6fe526966c4586dc387802a3.png">
 
 6. 进入 kong 实例的**配置管理** > **管理控制台**，查看 kong 管理控制台地址并进入。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/db7e612decce2d072a73a10a0a79054a.jpg" width=600px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/db7e612decce2d072a73a10a0a79054a.jpg">
 
 7. 进入 kong 管理控制台页面后，点击侧边导航栏 SERVICES，选择需要的 service 并进入详情页。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/388e2947e6cbf38cd34b229a416adca2.png" width=600px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/388e2947e6cbf38cd34b229a416adca2.png">
 
 8. 选择 Plugins 并点击 Add Plugin，在 other 栏中选择添加 Kong Kafka Log。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/1a4dde739c2d854afe3b5d3aeaea11c1.png" width=500px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/1a4dde739c2d854afe3b5d3aeaea11c1.png" width=600px>
 
 9. 填写 kafka server 地址以及 topic，其中 bootstrap servers 填写 kafka 的 server 地址，topic 为希望转存的 topic 必填参数，max size 为记录请求的最大长度，请求与返回的长度最大值，超过部分将截断。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/421ccda23f1da655c70ad512f938759c.png" width=500px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/421ccda23f1da655c70ad512f938759c.png" width=600px>
 
 10. 该插件绑定route后，请求route，消费 kafka 后可以查看消费到当前请求的日志内容（json格式）。
-<img src="https://qcloudimg.tencent-cloud.cn/raw/d1aed5b3bbd5b417b75268362cc791cc.png" width=500px>
-<img src="https://qcloudimg.tencent-cloud.cn/raw/6bd54c13d130326fe7624866e5c7c147.png" width=500px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/d1aed5b3bbd5b417b75268362cc791cc.png" width=600px>
+<img src="https://qcloudimg.tencent-cloud.cn/raw/6bd54c13d130326fe7624866e5c7c147.png" width=600px>
 
 ## 参考
 
